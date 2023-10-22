@@ -1,0 +1,139 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face{
+    font-family: 'Bebas Neue', sans-serif;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-family: normal;
+}
+:root{
+    --cor:#84E1AD;
+    --cor2:#1A5C38;
+    --fonte-padrao:'Bebas Neue', sans-serif;
+}
+/* 
+:root{
+--cor0:white;
+--cor1:#1A5C38
+--cor2: #71A087
+--cor3:#808080
+--cor4:#1A5C38
+--cor5:#84E1AD
+
+--font-padrao:Arial,Verdana,helvetica,sans-serif;
+--font-destaque:
+*//* para todas as variaveis */
+body{
+    background-color:var(--cor);
+}
+
+header{
+    height: 280px;
+    background-image: linear-gradient(to top,var(--cor2),#58dc93);
+}
+.cabeca{
+    max-width: 550px;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+}
+.cabeca h1{
+    padding-top: 30px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 3em;
+}
+.cabeca p{
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
+margin-bottom: 20px;
+display: inline-block;
+   
+}
+header nav{
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+header a{
+text-decoration: none;
+color: white;
+font-family: sans-serif;
+font-size:1.2em
+}
+a:hover{
+    background-color: #2FA866;
+    padding: 1%;
+    border-radius: 5px;
+}
+main{
+    margin: 0px 80px;
+    background-color: white;
+    padding: 2%;
+}
+article .artigo h2{
+    font-family: sans-serif;
+    background-image: linear-gradient(to left,var(--cor2),transparent);
+
+}
+article .artigo p{
+    padding-bottom: 5px;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+ /*    vertical-align: text-bottom;
+    padding: 2px; */
+}
+.image{
+    margin:0 auto;
+    max-width: 720px;
+    height: 300px;
+    max-height: 720px;
+}
+
+section{
+    background-color: #C5EBD6;
+}
+section h1{
+    padding: 10px ;
+    font-size: 2em;
+    background-color: #2FA866;
+    color: white;
+    font-family: sans-serif;
+   
+}
+section p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: none;
+}
+.video{
+    width: 100%;
+    background-color: #1A5C38;
+    padding: 20px;
+    
+}
+footer{
+    background-color: #1A5C38;
+    padding:25px 0;
+    font-family: sans-serif;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+}
